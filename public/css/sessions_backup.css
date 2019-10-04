@@ -1,0 +1,172 @@
+@font-face{
+    font-family: 'franklin_gothiccondensed';
+    src: url('../fonts/franklin-gothic-condensed-webfont.woff2') format('woff2'),
+         url('../fonts/franklin-gothic-condensed-webfont.woff') format('woff');
+    font-weight: normal;font-style: normal;
+}
+
+@font-face{
+    font-family: 'gotham_book';
+    src: url('../fonts/gotham-book-webfont.woff2') format('woff2'),
+         url('../fonts/gotham-book-webfont.woff') format('woff');
+    font-weight: normal;font-style: normal;
+}
+
+@font-face {
+	font-family: 'franklin_gothic_book';
+	src: url('../fonts/ITCFranklinGothicStd-Book.eot');
+	src: url('../fonts/ITCFranklinGothicStd-Book.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/ITCFranklinGothicStd-Book.woff2') format('woff2'),
+		url('../fonts/ITCFranklinGothicStd-Book.woff') format('woff'),
+		url('../fonts/ITCFranklinGothicStd-Book.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'vans';
+	src:url('../fonts/vanssans-regular1-webfont.woff2') format('woff2'),
+		url('../fonts/vanssans-regular1-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+    font-family: 'franklin_gothic_book';
+    background-image: url('../images/bg_negro.jpg');
+    background-size: contain;
+}
+h1, h2, h3, h4, h5{font-family: 'franklin_gothiccondensed'; text-transform: uppercase;}
+a{color: #000;}
+a:hover{text-decoration: none;}
+a:not([href]):not([tabindex]) {
+    text-decoration: none;
+    color: #fff;
+}
+p, div, a{font-family: 'franklin_gothic_book'; text-transform: uppercase;}
+
+/*clases*/
+.padding-5{padding: 5% !important;}
+.padding-0 {padding: 0 !Important;}
+.align-center{text-align: center; margin-bottom: 20px;font-family: 'franklin_gothiccondensed' !important;}
+.align-center a:hover{color: #D80425;font-family: 'franklin_gothiccondensed' !important;}
+.align-center a{font-family: 'franklin_gothiccondensed' !important;}
+/*fin clases*/
+
+/*header*/
+#header{
+    padding-top: 50px;
+    background-image: url('../images/bg_blanco.jpg');
+    min-height: 100vh;
+}
+
+#p-header{font-size: 20px; text-align: center; font-family: 'franklin_gothiccondensed';padding: 5px 20%;}
+
+.btn-red{background-image: url('../images/btn_red.jpg');height: 39px;
+    color: #fff;
+    font-family: 'vans', 'franklin_gothiccondensed';
+    width: auto;
+    /* margin-bottom: 30px; */
+    line-height: 37px;
+    font-size: 25px;
+    text-align: center;}
+#modal-content{background-image: url('../images/bg_negro.jpg');}
+.modal-header{border-bottom: 0;}
+.close {
+    float: right;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-shadow: 0 1px 0 #fff;
+    opacity: 1;
+}
+#text-header {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: -80%;
+    left: 0;
+    width: 100%;
+    height: 75px;
+}
+#img-logo{width: 80% !important;}
+/*fin header*/
+/*inscritos*/
+.back-black{background-color: #000;}
+.size-font{font-size: 1.6vw !Important;}
+#inscritos{background-image: url('../images/imagen.jpg'); min-height: 500px;}
+.col-inscritos{padding: 1% !important;margin-bottom: 3%;}
+.div-band{background-image: url('../images/bg_blanco.jpg'); margin-bottom: 5%;padding: 1%;background-position: left;}
+.h3-inscritos{text-transform: uppercase; font-size: 3vw;line-height: 2vw;margin-top: 3%;max-height: 300px;max-width: 90%;margin-bottom: 5%;}
+.state-inscritos{font-size: 2vw;margin-top: -10px; text-transform: uppercase;}
+.gender-inscritos{font-size: 1vw;margin-top: -10px; text-transform: uppercase;}
+.img-cover{background-size: cover;height: 250px;}
+.inscritos-checkers{height: 30px; background-image: url('../images/chekrs_fill.png');margin-top: -30px;}
+a:hover .h3-inscritos{color: #000 !important;}
+a:hover .state-inscritos {color: #000;}
+a:hover .gender-inscritos {color: #000;}
+#col-ultimos{background-image: url('../images/bg_blanco.jpg');}
+/*fin inscritos*/
+
+/*video*/
+#container-video{    margin-top: -40px;}
+#video{}
+/*fin video*/
+
+/*bands*/
+#bands{padding-top: 50px; padding-bottom: 50px; min-height: 500px;}
+.nav-fill .nav-item {color: #fff;font-family: 'franklin_gothiccondensed'; text-transform: uppercase; font-size: 30px;}
+#nav-bands{    border-bottom: 2px solid #fff !important;border-top: 2px solid #fff;}
+.active-fill{
+    background-image: url('../images/bg-fill.png');
+    color: #000 !important;
+}
+.img-cover-all{background-size: cover;height: 130px;}
+.h3-bands{background-color: #000; color: #fff; font-size: 2vw; text-transform: uppercase;margin-bottom: 15px;}
+.h4-state{color: #000; font-size: 1vw;text-align: left;}
+.p-red{color: #C11600; font-size: 15px; margin-bottom: 15px; text-transform: uppercase;}
+.p-description{color: #000; font-size: 15px;}
+.grow{flex: 1;}
+.main {}
+.bands-all{min-height: 410px; max-height: 410px;}
+.font-2{font-size: 1.6vw !Important;}
+a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {color: #D80425;text-decoration: none;}
+.back-black a:hover{color: #D80425;}
+#nav-bands-band{background-image: url('../images/bg_negro.jpg') !important;}
+#nav-bands-band a.nav-item{color: #fff;}
+/*fin bads*/
+
+/*footer*/
+#footer{width: 100%; height: 30px; line-height: 30px; background: #000;color: #fff;    padding: 0 10%;}
+
+/*fin footer*/
+
+
+
+/*banda*/
+.p-black{color: #000; margin-top: 5px; text-transform: uppercase;}
+.img-logo-band{margin-bottom: 10px;}
+.h3-bands-band{color: #000; font-size: 2vw; margin-top: 15px;text-transform: uppercase; }
+.back-center{background-position: center;}
+.img-cover-band{background-size: cover; padding: 30px;}
+#music{background-image: url('../images/bg_negro.jpg'); background-position: center; margin: 0;height:120px;line-height: 120px;}
+input[type="button" i], input[type="submit" i], input[type="reset" i], input[type="file" i]::-webkit-file-upload-button, button {border-color: transparent !Important;border-style:none  !Important;border-width:0 !Important;padding: 0 !Important;}
+.count{font-family: 'franklin_gothiccondensed'; color: #D80425;font-size: 35px;margin-top: -10px;}
+#img-rayo{margin-top: 30px;}
+.btn-votar{cursor: pointer;}
+#bio-band{ color: #FFF;}
+.h3-name-band{font-size: 5vw;line-height: 5vw;text-align: center; margin-top: 3%;margin-bottom: 5%;}
+#btn-login{margin-top: 28%;}
+.back-to-home{height: 44px;width: 44px; color:#fff; text-align: center; line-height: 44px;background-image: url('../images/bg_negro.jpg');cursor: pointer;}
+
+/*fin banda*/
+
+
+
+

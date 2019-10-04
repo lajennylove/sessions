@@ -1,0 +1,116 @@
+@font-face{
+    font-family: 'franklin_gothiccondensed';
+    src: url('../fonts/franklin-gothic-condensed-webfont.woff2') format('woff2'),
+         url('../fonts/franklin-gothic-condensed-webfont.woff') format('woff');
+    font-weight: normal;font-style: normal;
+}
+
+@font-face{
+    font-family: 'gotham_book';
+    src: url('../fonts/gotham-book-webfont.woff2') format('woff2'),
+         url('../fonts/gotham-book-webfont.woff') format('woff');
+    font-weight: normal;font-style: normal;
+}
+
+@font-face {
+	font-family: 'franklin_gothic_book';
+	src: url('../fonts/ITCFranklinGothicStd-Book.eot');
+	src: url('../fonts/ITCFranklinGothicStd-Book.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/ITCFranklinGothicStd-Book.woff2') format('woff2'),
+		url('../fonts/ITCFranklinGothicStd-Book.woff') format('woff'),
+		url('../fonts/ITCFranklinGothicStd-Book.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'vans';
+	src:url('../fonts/vanssans-regular1-webfont.woff2') format('woff2'),
+		url('../fonts/vanssans-regular1-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+    font-family: 'franklin_gothic_book';
+    background-image: url('../images/bg_blanco.jpg')
+}
+h1, h2, h3, h4, h5{font-family: 'franklin_gothiccondensed';}
+a{color: #000;}
+a:hover{color: #000;}
+label, p, div, a{font-family: 'franklin_gothic_book';}
+.align-left{text-align: left;}
+.center{text-align: center; text-transform: uppercase;}
+.right{text-align: right; text-transform: uppercase;}
+.left{text-align: left; text-transform: uppercase;}
+
+.red{color: #C11600 !Important;font-family: 'franklin_gothic_book'; font-size: 15px;}
+
+/*redes sociales*/
+a.a-footer{color: #fff;}
+a.a-footer:hover{color: #D80425;}
+.social ul li{font-size: 30px; text-align: center;}
+/*fin redes sociales*/
+
+
+/*btn home*/
+
+
+#i-home{position: absolute;left: 20px;top: 50px;}
+#i-home ul li{font-size: 30px;}
+
+/*fin btn home*/
+
+
+/*login*/
+#logo-login{width: 65% !important; margin-top: 15px;}
+.h1-login{font-size: 4vw; text-align: center; text-transform: uppercase; font-family: 'franklin_gothiccondensed';}
+.form-control{border: 3px solid #000;border-radius: 0;background-color: transparent; color: #000;}
+label{font-size: 2vw; color: #000; text-transform: uppercase; text-align: right;font-family: 'franklin_gothiccondensed';}
+.form-control:focus {color: #000;background-color: transparent;border-color: #000;outline: 0;box-shadow: 0 0 0 0.2rem rgba(0,123,255,.0);font-family: 'franklin_gothic_book';}
+.image-upload > input {visibility:hidden;width:0;height:0}
+.image-upload {height: 50px;}
+.label-upload{cursor: pointer;}
+#footer{width: 100%; height: 40px; line-height: 30px; background: #000;color: #fff;    padding: 0 10%;}
+.col-sm-2{padding-right: 0;}
+input[type="button" i], input[type="submit" i], input[type="reset" i], input[type="file" i]::-webkit-file-upload-button, button {
+    border-color: transparent !Important;
+    border-style:none  !Important;
+    border-width:0 !Important;
+    padding: 0 !Important;}
+.logout{position: absolute; top: 10px; right: 20px;}
+strong{color: #C11600;}
+.btn-red{background-image: url('../images/btn_red.jpg');height: 39px;
+    color: #fff;
+    width:100% !important;
+    font-family: 'vans', 'franklin_gothiccondensed';
+    width: auto;
+    /* margin-bottom: 30px; */
+    line-height: 37px;
+    font-size: 25px;
+    text-align: center;}
+/*finlogin*/
+#i-home {z-index: 99999999;}
+/*modal*/
+#modal-content{background-image: url('../images/bg_negro.jpg');}
+.modal-header{border-bottom: 0;}
+.close {float: right;font-size: 1.5rem;font-weight: 700;line-height: 1;color: #fff;text-shadow: 0 1px 0 #fff;opacity: 1;}
+/*fin modal*/
+/*responsive*/
+@media screen and (max-width: 780px)
+{
+    #row-register-band{margin-left: 10px !Important; margin-right: 20px !Important;}
+    #row-login{margin-left: 10px !Important; margin-right: 20px !Important;}
+    .social{display: none;}
+    .h1-login{font-size: 10vw;}
+    #footer{height: auto;}
+    .right {text-align: center;}
+    .left {text-align: center;}
+    #logo-login{margin-top: 18px;}
+    #navbarTogglerDemo01{display: block !important;}
+    #i-home {top: 0;}
+}
+/*finresponsive*/

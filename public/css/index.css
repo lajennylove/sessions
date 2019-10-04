@@ -1,0 +1,9 @@
+html {height: 100vh;}
+body{max-height: 100vh; overflow: hidden;}
+#footer{position: absolute; bottom: 0 !Important;}
+.li{    height: 25px;width: 25px;}
+.img-header{    width: 150%;}
+.social{position: absolute;right: 20px;top: 50px;}
+#hashtag{max-width: 15%}
+#i-home {z-index: 99999999;}
+#navbarTogglerDemo01{display: block !important;}

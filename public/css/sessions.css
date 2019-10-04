@@ -1,0 +1,208 @@
+@font-face{
+    font-family: 'franklin_gothiccondensed';
+    src: url('../fonts/franklin-gothic-condensed-webfont.woff2') format('woff2'),
+         url('../fonts/franklin-gothic-condensed-webfont.woff') format('woff');
+    font-weight: normal;font-style: normal;
+}
+
+@font-face{
+    font-family: 'gotham_book';
+    src: url('../fonts/gotham-book-webfont.woff2') format('woff2'),
+         url('../fonts/gotham-book-webfont.woff') format('woff');
+    font-weight: normal;font-style: normal;
+}
+
+@font-face {
+	font-family: 'franklin_gothic_book';
+	src: url('../fonts/ITCFranklinGothicStd-Book.eot');
+	src: url('../fonts/ITCFranklinGothicStd-Book.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/ITCFranklinGothicStd-Book.woff2') format('woff2'),
+		url('../fonts/ITCFranklinGothicStd-Book.woff') format('woff'),
+		url('../fonts/ITCFranklinGothicStd-Book.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'vans';
+	src:url('../fonts/vanssans-regular1-webfont.woff2') format('woff2'),
+		url('../fonts/vanssans-regular1-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+html {
+  height: 100%;
+}
+body {
+    min-height: 100%;
+    font-family: 'franklin_gothic_book';
+    background-image: url('../images/bg_negro.jpg');
+    background-size: contain;
+}
+h1, h2, h3, h4, h5{font-family: 'franklin_gothiccondensed'; text-transform: uppercase;}
+a{color: #000;}
+a:hover{text-decoration: none;}
+a:not([href]):not([tabindex]) {
+    text-decoration: none;
+    color: #fff;
+}
+p, div, a{font-family: 'franklin_gothic_book'; text-transform: uppercase;}
+
+/*clases*/
+.padding-5{padding: 5% !important;}
+.padding-0 {padding: 0 !Important;}
+.align-center{text-align: center; margin-bottom: 20px;font-family: 'franklin_gothiccondensed' !important;}
+.align-center a:hover{color: #D80425;font-family: 'franklin_gothiccondensed' !important;}
+.align-center a{font-family: 'franklin_gothiccondensed' !important;}
+.center{text-align: center;}
+.right{text-align: right;}
+.left{text-align: left;}
+.transparent{background: transparent !Important;}
+/*fin clases*/
+/*menu*/
+.slicknav_menu{display: none;}
+.social ul li{font-size: 30px; text-align: center;}
+/*fin menu*/
+/*header*/
+#header{
+    padding-top: 15px;
+    background-image: url('../images/bg_blanco.jpg');
+    min-height: 100vh;
+}
+
+#p-header{font-size: 20px; text-align: center; font-family: 'franklin_gothiccondensed';padding: 5px 20%;padding-bottom: 0;}
+
+.btn-red{background-image: url('../images/btn_red.jpg');height: 39px;
+    color: #fff;
+    font-family: 'vans', 'franklin_gothiccondensed';
+    width: auto;
+    /* margin-bottom: 30px; */
+    line-height: 37px;
+    font-size: 25px;
+    text-align: center;}
+#modal-content{background-image: url('../images/bg_negro.jpg');}
+.modal-header{border-bottom: 0;}
+.close {float: right;font-size: 1.5rem;font-weight: 700;line-height: 1;color: #fff;text-shadow: 0 1px 0 #fff;opacity: 1;}
+#text-header {position: absolute;margin: auto;top: 0;right: 0;bottom: -60%;left: 0;width: 100%;height: 75px;}
+#img-logo{width: 65% !important;}
+.hashtag{font-family: 'franklin_gothiccondensed'; font-size: 1.5vw;}
+/*fin header*/
+/*inscritos*/
+/*.back-black{background-color: #000;}*/
+.back-black{}
+.btn-black{background: #000;}
+.size-font{font-size: 1.6vw !Important;}
+#inscritos{background-image: url('../images/imagen.jpg');min-height: 100vh; }
+.col-inscritos{padding: 1% !important;margin-bottom: 3%;}
+.div-band{background-image: url('../images/bg_blanco.jpg'); margin-bottom: 5%;padding: 1%;background-position: left;}
+.h3-inscritos{text-transform: uppercase; font-size: 3vw;line-height: 2vw;margin-top: 3%;max-height: 300px;max-width: 90%;margin-bottom: 5%;}
+.state-inscritos{font-size: 2vw;margin-top: -10px; text-transform: uppercase;}
+.gender-inscritos{font-size: 1vw;margin-top: -10px; text-transform: uppercase;}
+.img-cover{background-size: cover;height: 250px;}
+.inscritos-checkers{height: 30px; background-image: url('../images/chekrs_fill.png');margin-top: -30px;}
+a:hover .h3-inscritos{color: #000 !important;}
+a:hover .state-inscritos {color: #000;}
+a:hover .gender-inscritos {color: #000;}
+#col-ultimos{background-image: url('../images/bg_blanco.jpg');    margin-top: 3%;
+    margin-bottom: 2%;}
+/*fin inscritos*/
+
+/*video*/
+#container-video{    margin-top: -40px;}
+#video{}
+/*fin video*/
+
+/*bands*/
+#bands{padding-top: 15px; padding-bottom: 50px; min-height: 500px;}
+.nav-fill .nav-item {color: #fff;font-family: 'franklin_gothiccondensed'; text-transform: uppercase; font-size: 30px;margin-left: 10px; margin-right: 10px;}
+#nav-bands{    border-bottom: 2px solid #fff !important;border-top: 2px solid #fff;}
+.active-fill{
+    background-image: url('../images/bg-fill.png');
+    color: #000 !important;
+}
+.img-cover-all{background-size: cover;height: 130px;}
+.h3-bands{background-color: #000; color: #fff; font-size: 2vw; text-transform: uppercase;margin-bottom: 15px;}
+.h4-state{color: #000; font-size: 1vw;text-align: left;}
+.p-red{color: #C11600; font-size: 15px; margin-bottom: 15px; text-transform: uppercase;}
+.p-description{color: #000; font-size: 15px;}
+.grow{flex: 1;}
+.main {}
+.bands-all{min-height: 410px; max-height: 410px;}
+.font-2{font-size: 1.2vw !Important;}
+a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {color: #D80425;text-decoration: none;}
+.back-black a:hover{color: #D80425;}
+#nav-bands-band{background-image: url('../images/bg_negro.jpg') !important;}
+#nav-bands-band a.nav-item{color: #fff;}
+#search{border-radius: 0;}
+#btn-find{background: #C20000; color: #fff;padding: 7px !IMPORTANT;border-radius: 0;}
+#div-find{padding-right: 0;}
+/*fin bads*/
+
+/*footer*/
+#footer{width: 100%; height: 30px; line-height: 30px; background: #000;color: #fff;    padding: 0 10%;}
+a.a-footer{color: #fff;}
+a.a-footer:hover{color: #D80425;}
+/*fin footer*/
+
+
+
+/*banda*/
+.p-black{color: #000; margin-top: 5px; text-transform: uppercase;}
+.img-logo-band{margin-bottom: 10px;}
+.h3-bands-band{color: #000; font-size: 2vw; margin-top: 15px;text-transform: uppercase; }
+.back-center{background-position: center;}
+.img-cover-band{background-size: cover; padding: 30px;}
+#music{background-image: url('../images/bg_negro.jpg'); background-position: center; margin: 0;height:120px;line-height: 120px;}
+input[type="button" i], input[type="submit" i], input[type="reset" i], input[type="file" i]::-webkit-file-upload-button, button {border-color: transparent !Important;border-style:none  !Important;border-width:0 !Important;padding: 0 !Important;}
+.count{font-family: 'franklin_gothiccondensed'; color: #D80425;font-size: 35px;margin-top: -10px;}
+#img-rayo{margin-top: 30px;}
+.btn-votar{cursor: pointer;}
+#bio-band{ color: #FFF;}
+.h3-name-band{font-size: 5vw;line-height: 5vw;text-align: center; margin-top: 3%;margin-bottom: 5%;}
+#btn-login{margin-top: 28%;}
+.back-to-home{height: 44px;width: 44px; color:#fff; text-align: center; line-height: 44px;background-image: url('../images/bg_negro.jpg');cursor: pointer;}
+
+/*fin banda*/
+#i-home {z-index: 99999999;}
+/*responsive*/
+@media screen and (max-width: 780px)
+{
+    .slicknav_menu {display:block;z-index: 99999;}
+    .slicknav_menu {padding: 0px !Important;position: fixed !Important;top: 3% !Important; background:#000 !Important;left: 3%;}
+    .slicknav_menutxt{display: none !Important}
+    .slicknav_menu .slicknav_icon {float: left;width: 1.125em;height: auto !Important;margin: 0 !Important;}
+    .slicknav_btn {padding: 0 !Important;}
+    #nav-bands{display: none;}
+    .img-header{width: 100% !Important;}
+    #img-logo {margin-top: 5%;}
+    .size-font {font-size: 3.6vw !Important;}
+    #text-header{bottom: -18%;}
+    #p-header{padding: 0; font-size: 15px;}
+    #hashtag{max-width: 50% !important;}
+    .left{font-size: 12px; text-align: center;}
+    .center{font-size: 12px; text-align: center;}
+    .right{font-size: 12px; text-align: center;}
+    .social { position: absolute!important;right: 0px !important;top: 2% !important;}
+    #footer{height: 90px !Important; }
+    .font-2{font-size: 4.5vw !important;} 
+    .h3-bands{font-size: 8vw !important;}
+    #music{height: auto; line-height: inherit;}
+    .btn-votar{margin-top: 7% !Important;}
+    #img-rayo{margin-top: 16% !important;}
+    .count{margin-top: 0px !important;}
+    .h3-name-band {font-size: 8vw;line-height: 8vw;text-align: center;margin-top: 4%;margin-bottom: 7%;}
+    .state-inscritos{font-size: 4vw;}
+    .h3-bands-band{font-size: 8vw;}
+    .h4-state{font-size: 4vw;}
+    .padding-0{padding-left: 15px !important;}
+    .h3-inscritos{font-size: 8vw;}
+    .gender-inscritos{font-size: 3vw;}
+    #navbarTogglerDemo01{display: block !important;}
+    #i-home {top: 0;}
+    .hashtag{font-size: 5vw;    margin-bottom: 0px;}
+    .h3-inscritos{line-height: auto !Important;}
+}
+/*fin responsive*/
+
+
